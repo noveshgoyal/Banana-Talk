@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Encode+Sans:wght@400;500&family=Martel+Sans&display=swap');
+body{
+    background-color: #fcd34d;
+    text-align: center;
+    background-image: url('img.png');
+    scrollbar-color: black #fcd34d ;
+
+}
+
+h1 {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-text{
+    text-align: center;
+    padding: 5px;
+    width:40%;
+    height: 70px;
+    margin-bottom: 8px;
+    font-size: large;
+}
+
+#translated-txt{
+    border: 1.3px solid black ;
+    padding: 5px;
+    margin-top: 15px;
+    height:15vh;
+    width:35%;
+    overflow:scroll;
+    font-size: larger;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+#btn-translate{
+    font-family: 'Encode Sans', sans-serif;
+    padding: 5px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 3px;
+    width: 7%;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.output-label{
+    font-size:larger;
+    margin-top: 156px;
+    font-family: 'Encode Sans', sans-serif;
+}
